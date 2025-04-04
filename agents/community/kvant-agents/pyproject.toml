@@ -1,0 +1,25 @@
+[project]
+name = "kvant_agents"
+version = "0.0.1"
+description = "Collection of CrewAI agents"
+authors = []
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "beeai-sdk==0.0.16",
+    "acp-sdk", # version determined by beeai-sdk
+    "crewai[tools]>=0.102.0,<1.0.0",
+    "databricks-sdk>=0.46.0",
+]
+
+[project.scripts]
+kvant-agents = "kvant_agents.server:main"
+
+[tool.ruff]
+line-length = 120
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
