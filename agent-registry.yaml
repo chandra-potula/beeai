@@ -13,4 +13,4 @@ providers:
   - location: ghcr.io/i-am-bee/beeai-platform/community/literature-review:agents-v0.0.74
   - location: ghcr.io/i-am-bee/beeai-platform/community/marketing-strategy:agents-v0.0.74
   - location: ghcr.io/i-am-bee/beeai-platform/community/ollama-deep-researcher:agents-v0.0.74
-  - location: git.kvant.cloud/chandra.shekhar/beeai-platform/community/marketing-planner:agents-v0.0.74
+  - location: git.kvant.cloud/phoenix/beeai-platform/community/marketing-planner:agents-v0.0.74
